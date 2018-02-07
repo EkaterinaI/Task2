@@ -90,7 +90,7 @@
 				
 				<form class="chooseFont"> 
 					<label for="chooseFontStyle">Выберите размер шрифта</label>
-					<input type="text" id="chooseFont" value="18">
+					<input type="text" id="chooseFont" value="18"  onkeyup="this.value=this.value.replace(/[^0-9]/g,'');">
 	  				<input type="button" id="button" value="Применить">
 				</form>
 				<form>
